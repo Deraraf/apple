@@ -1,0 +1,140 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: black;
+    
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+header li a{
+color: #fff;
+text-decoration: none;
+}
+header ul li img{
+    width: 18px;
+} */
+
+/* for home page */
+
+/* .home{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.home h1{
+    font-weight: bold;
+
+}
+.home .home-Link {
+ display: flex;
+ justify-content: space-between;
+ margin: 10px 0;
+}
+
+.home-Link button {
+    border-radius: 30px;
+    background-color: rgb(31, 31, 182);
+    border-style: none;
+    padding: 8px;
+    margin: 8px;
+    
+}
+.home .home-Link button a{
+    text-decoration: none;
+   color: #fff;
+   padding: 6px;
+}
+.home-Link button:nth-of-type(1) {
+    background-color: red;
+}
+.home-Link button:nth-of-type(2) {
+    background-color: transparent;
+    border-style: solid;
+    border-color: rgb(42, 42, 217);
+}
+.home-Link button:nth-of-type(2) a {
+    color: blue;
+}
+.home-Link button:nth-of-type(2) a :hover {
+    color: rgb(36, 36, 213);
+} */
+/* .pro{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .pro h1 h3{
+    color: white;
+    z-index: 1;
+ }
+.proLink button{
+    border-radius: 30px;
+    background-color: rgb(31, 31, 182);
+    border-style: none;
+    padding: 8px;
+    margin: 8px;
+}
+.proLink button a{
+    text-decoration: none;
+   color: #fff;
+   padding: 6px;
+} */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-wrapper{
+    background-color: black;
+    color: #fff;
+    font-weight: 200;
+    font-size: 0.75;
+}
+.header-wrapper ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+
+    
+}
+/* .internal-wrapper{
+    width: 980px;
+    padding: 0 10px;
+    margin: 0 auto;
+    
+} */
+
+.internal-wrapper ul li{
+    padding: 0 15px;
+    margin: 5px 20px
+}
+.internal-wrapper li a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+.internal-wrapper li a:hover{
+    opacity: 1;
+    color: rgb(48, 48, 169);
+}
+
+.header-wrapper ul a img{
+    width: 18px;
+
+}
